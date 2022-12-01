@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Component">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="GetParent" Hidden="true" />
+      <Field Name="pParent" Hidden="true" />
+      <Method Name="SetParent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAIAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAA=</HashCode>
+      <FileName>Composites\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Composite">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <Members>
+      <Field Name="AlienCount" Hidden="true" />
+      <Method Name="AttachChildren" Hidden="true" />
+      <Field Name="children" Hidden="true" />
+      <Field Name="ColumnCount" Hidden="true" />
+      <Method Name="Composite" Hidden="true" />
+      <Method Name="DecrementCount" Hidden="true" />
+      <Method Name="DetachChildren" Hidden="true" />
+      <Method Name="GetChildrenIterator" Hidden="true" />
+      <Method Name="IncrementCount" Hidden="true" />
+      <Field Name="pCompositeParent" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="SetCompositeParent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAASAARAAAAAARgAIAAAAAAAABAAEIAA=</HashCode>
+      <FileName>Composites\Composite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Leaf" Collapsed="true">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Composites\Leaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ColumnComposite">
+    <Position X="6.25" Y="5.25" Width="1.5" />
+    <Members>
+      <Method Name="Accept" Hidden="true" />
+      <Method Name="ActivateSpriteBox" Hidden="true" />
+      <Method Name="AttachChildren" Hidden="true" />
+      <Field Name="BombReady" Hidden="true" />
+      <Method Name="Clear" Hidden="true" />
+      <Method Name="ColumnComposite" Hidden="true" />
+      <Method Name="Compare" Hidden="true" />
+      <Method Name="DetachChildren" Hidden="true" />
+      <Method Name="DropBomb" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Field Name="pDummyBomb" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="PushToProxySprite" Hidden="true" />
+      <Field Name="rand" Hidden="true" />
+      <Method Name="Reset" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIYAAIAAAYAABACAAIAAAAAAAgCAABAAAABAAABEBAA=</HashCode>
+      <FileName>Grid\ColumnComposite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GridComposite">
+    <Position X="3.75" Y="5.25" Width="1.5" />
+    <Members>
+      <Method Name="Accept" Hidden="true" />
+      <Method Name="ActivateSpriteBox" Hidden="true" />
+      <Method Name="AttachChildren" Hidden="true" />
+      <Method Name="Clear" Hidden="true" />
+      <Method Name="Compare" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="GridComposite" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="PushToProxySprite" Hidden="true" />
+      <Method Name="Reset" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIYAAAAAAIAABACAAAAAAAAAAAAAABAAAABAAABEBAA=</HashCode>
+      <FileName>Grid\GridComposite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.EnemyBase">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <Members>
+      <Method Name="EnemyBase" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Enemies\EnemyBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectBase" Collapsed="true">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACYAAAAAAAAIAAAAAAAABQAEAAAGAAEAAEBoAAAABAA=</HashCode>
+      <FileName>GameObjects\GameObjectBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

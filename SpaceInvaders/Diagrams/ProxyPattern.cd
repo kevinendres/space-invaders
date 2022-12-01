@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ProxySprite">
+    <Position X="2" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.ProxySprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SpriteProxy\ProxySprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAABABAAAAAAAgAAAAEAAAAABBgAABEBAA=</HashCode>
+      <FileName>SpriteProxy\ProxySprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteAdaptor">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.SpriteAdaptor.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprites\SpriteAdaptor.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAQAIAAAAABAJgBAYAgAAAAAAAAEAAAAABBgAABEBAA=</HashCode>
+      <FileName>Sprites\SpriteAdaptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

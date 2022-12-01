@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Bomb">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="Accept" Hidden="true" />
+      <Method Name="Bomb" Hidden="true" />
+      <Field Name="pColumn" Hidden="true" />
+      <Field Name="rand" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIQAEIAAAIAQAAAAAAYABAgAAAAAEAAAIAAAAAABAAA=</HashCode>
+      <FileName>GameObjects\Bomb\Bomb.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pFallStrategy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.FallStrategy">
+    <Position X="6.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy\FallStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.FallMirror">
+    <Position X="4.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgABAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Strategy\FallMirror.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.FallRotate">
+    <Position X="6.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgABAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Strategy\FallRotate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.FallStraight">
+    <Position X="9" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgABAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Strategy\FallStraight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

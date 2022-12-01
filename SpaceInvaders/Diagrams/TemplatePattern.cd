@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ManagerBase">
+    <Position X="2" Y="1.75" Width="1.5" />
+    <Members>
+      <Method Name="AcquireFromBase" Hidden="true" />
+      <Method Name="baseFind" Hidden="true" />
+      <Method Name="basePrint" Hidden="true" />
+      <Method Name="ClearNode" Hidden="true" />
+      <Method Name="ManagerBase" Hidden="true" />
+      <Method Name="ReleaseToBase" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAIAAAwAAAAAAgAAAAAJggAQAAAAgAAAAAAAAAACAA=</HashCode>
+      <FileName>Bases\ManagerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TextureManager">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="GetTexture" Hidden="true" />
+      <Method Name="Initialize" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="TextureManager" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIAAAACAAAAAQAAAAAAJAAAAAAIAAAAAAAAAgAEAAA=</HashCode>
+      <FileName>Textures\TextureManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ImageManager">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <Members>
+      <Field Name="poCompare" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIAABAAAAAABQAAAAAAJAAAAAAIAAAAAAAAAgAEAAA=</HashCode>
+      <FileName>Images\ImageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

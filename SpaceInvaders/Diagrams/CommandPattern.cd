@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.CommandBase">
+    <Position X="2.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AnimateCommand">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <Members>
+      <Method Name="AnimateCommand" Hidden="true" />
+      <Method Name="Attach" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAQAAAAACAgAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AnimateCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DropBombCommand">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <Members>
+      <Method Name="DropBombCommand" Hidden="true" />
+      <Method Name="SelectColumn" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAEAAA=</HashCode>
+      <FileName>Commands\DropBombCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.RemoveExplosionCommand">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <Members>
+      <Method Name="RemoveExplosionCommand" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\RemoveExplosionCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
